@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.padding_site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.page_header {
+    width: 100%;
+    background-color: #445161;
+    color: #fff;
+}
+
+.page_header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.page_header_wrp {
+    float: left;
+    width: 466px;
+}
+
+.page_header_title {
+    display: block;
+    font-size: 60px;
+    margin: 0 0 20px 0;
+}
+
+.page_header_list {
+    margin: 0;
+    padding: 0 0 0 25px;
+    list-style-type: none;
+}
+
+.page_header_list li{
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.page_header_list li:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/checkmark.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+}
+
+.page_header_list li:last-child{
+    margin: 0;
+}
+
+.page_header_img {
+    display: block;
+    float:right;
+    width: 471px;
+    height: 216px;
+}
+
+.about_product {
+    width: 100%;
+    color: #445161;
+}
+
+.about_product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about_product_wrp {
+    float: left;
+    width: 679px;
+}
+
+.about_product_title {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 16px 0;
+    color: #445161;
+}
+
+.about_product_text_top, .about_product_text_bottom {
+    font-size: 16px;
+    margin: 0;
+}
+
+.about_product_text_top {
+    margin: 0 0 10px 0;
+}
+
+.about_product_img {
+    display: block;
+    float:right;
+    width: 430px;
+    height: 245px;
+}
+
+.dignity {
+    background-color: #f5f5f5;
+}
+
+.dignity_header_title {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    color: #445161;
+}
+
+.dignity_wrp_left {
+    float:left;
+    width: 50%;
+}
+
+.dignity_wrp_right {
+    float:right;
+    width: 50%;
+}
+
+.dignity_list {
+    margin: 0;
+    padding: 0 0 0 25px;
+    list-style-type: none;
+    color: #333333;
+}
+
+.dignity li{
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.dignity li:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/plus.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+}
+
+.dignity li:last-child{
+    margin: 0;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots_header_title {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    color: #445161;
+}
+
+.screenshots_wrp {
+    margin: 0 0 30px 0;
+}
+
+.screenshots_wrp:last-child {
+    margin: 0;
+}
+
+.screenshots_wrp:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots_figure_left {
+    margin: 0px;
+    width: 50%;
+    float: left;
+}
+
+.screenshots_figure_right {
+    margin: 0px;
+    width: 50%;
+    float: right;
+}
+
+.screenshots_img {
+    width: 200px;
+    height: 150px;
+    float:left;
+    margin: 0 15px 0 0;
+}
+
+.screenshots_figcap {
+    font-size: 24px;
+    color: #445161;
+    margin: 0 0 15px 0;
+}
+
+.screenshots_fig_text {
+    font-size: 16px;
+    color: #333333;
+    margin: 0px;
+}
+
+.screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
